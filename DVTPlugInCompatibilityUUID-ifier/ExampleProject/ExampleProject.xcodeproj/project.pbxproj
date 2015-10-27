@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D246418916C04B21005DB12C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D246418816C04B21005DB12C /* Cocoa.framework */; };
+		D2765EE416EBDA360095A9C9 /* JDGitCloneTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765ED516EBDA360095A9C9 /* JDGitCloneTask.m */; };
+		D2765EE516EBDA360095A9C9 /* JDInstallProgressWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765ED716EBDA360095A9C9 /* JDInstallProgressWindow.m */; };
+		D2765EE616EBDA360095A9C9 /* JDPluginInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765ED916EBDA360095A9C9 /* JDPluginInstaller.m */; };
+		D2765EE716EBDA360095A9C9 /* JDPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765EDB16EBDA360095A9C9 /* JDPluginManager.m */; };
+		D2765EE816EBDA360095A9C9 /* JDPluginMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765EDD16EBDA360095A9C9 /* JDPluginMetaData.m */; };
+		D2765EE916EBDA360095A9C9 /* JDXcodeBuildTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765EDF16EBDA360095A9C9 /* JDXcodeBuildTask.m */; };
+		D2765EEA16EBDA360095A9C9 /* NSTaskWithProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765EE116EBDA360095A9C9 /* NSTaskWithProgress.m */; };
+		D2765EEB16EBDA360095A9C9 /* NSURL+JDPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765EE316EBDA360095A9C9 /* NSURL+JDPluginManager.m */; };
+		D2765EEE16EBDA470095A9C9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2765EED16EBDA470095A9C9 /* Localizable.strings */; };
+		D2765EF616EBED830095A9C9 /* NSFileManager+JDPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2765EF516EBED830095A9C9 /* NSFileManager+JDPluginManager.m */; };
+		D2E2D32616D4304B00447430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E2D32116D4304B00447430 /* main.m */; };
+		D2E2D32716D4304B00447430 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2E2D32216D4304B00447430 /* MainMenu.xib */; };
+		D2E2D32816D4304B00447430 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E2D32416D4304B00447430 /* TAAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D246418516C04B21005DB12C /* ExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D246418816C04B21005DB12C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D246418B16C04B21005DB12C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D246418C16C04B21005DB12C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D246418D16C04B21005DB12C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2765ED416EBDA360095A9C9 /* JDGitCloneTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGitCloneTask.h; sourceTree = "<group>"; };
+		D2765ED516EBDA360095A9C9 /* JDGitCloneTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGitCloneTask.m; sourceTree = "<group>"; };
+		D2765ED616EBDA360095A9C9 /* JDInstallProgressWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDInstallProgressWindow.h; sourceTree = "<group>"; };
+		D2765ED716EBDA360095A9C9 /* JDInstallProgressWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDInstallProgressWindow.m; sourceTree = "<group>"; };
+		D2765ED816EBDA360095A9C9 /* JDPluginInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPluginInstaller.h; sourceTree = "<group>"; };
+		D2765ED916EBDA360095A9C9 /* JDPluginInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPluginInstaller.m; sourceTree = "<group>"; };
+		D2765EDA16EBDA360095A9C9 /* JDPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPluginManager.h; sourceTree = "<group>"; };
+		D2765EDB16EBDA360095A9C9 /* JDPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPluginManager.m; sourceTree = "<group>"; };
+		D2765EDC16EBDA360095A9C9 /* JDPluginMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPluginMetaData.h; sourceTree = "<group>"; };
+		D2765EDD16EBDA360095A9C9 /* JDPluginMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPluginMetaData.m; sourceTree = "<group>"; };
+		D2765EDE16EBDA360095A9C9 /* JDXcodeBuildTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDXcodeBuildTask.h; sourceTree = "<group>"; };
+		D2765EDF16EBDA360095A9C9 /* JDXcodeBuildTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDXcodeBuildTask.m; sourceTree = "<group>"; };
+		D2765EE016EBDA360095A9C9 /* NSTaskWithProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTaskWithProgress.h; sourceTree = "<group>"; };
+		D2765EE116EBDA360095A9C9 /* NSTaskWithProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTaskWithProgress.m; sourceTree = "<group>"; };
+		D2765EE216EBDA360095A9C9 /* NSURL+JDPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+JDPluginManager.h"; sourceTree = "<group>"; };
+		D2765EE316EBDA360095A9C9 /* NSURL+JDPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+JDPluginManager.m"; sourceTree = "<group>"; };
+		D2765EEC16EBDA470095A9C9 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = global.h; path = ../global.h; sourceTree = "<group>"; };
+		D2765EED16EBDA470095A9C9 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../Localizable.strings; sourceTree = "<group>"; };
+		D2765EF416EBED830095A9C9 /* NSFileManager+JDPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+JDPluginManager.h"; sourceTree = "<group>"; };
+		D2765EF516EBED830095A9C9 /* NSFileManager+JDPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+JDPluginManager.m"; sourceTree = "<group>"; };
+		D2E2D31F16D4304B00447430 /* ExampleProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExampleProject-Info.plist"; sourceTree = "<group>"; };
+		D2E2D32016D4304B00447430 /* ExampleProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExampleProject-Prefix.pch"; sourceTree = "<group>"; };
+		D2E2D32116D4304B00447430 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2E2D32216D4304B00447430 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		D2E2D32316D4304B00447430 /* TAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		D2E2D32416D4304B00447430 /* TAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D246418216C04B21005DB12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D246418916C04B21005DB12C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D246417C16C04B21005DB12C = {
+			isa = PBXGroup;
+			children = (
+				D2E2D31E16D4304B00447430 /* ExampleProject */,
+				D246418716C04B21005DB12C /* Frameworks */,
+				D246418616C04B21005DB12C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D246418616C04B21005DB12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D246418516C04B21005DB12C /* ExampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D246418716C04B21005DB12C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D246418816C04B21005DB12C /* Cocoa.framework */,
+				D246418A16C04B21005DB12C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D246418A16C04B21005DB12C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D246418B16C04B21005DB12C /* AppKit.framework */,
+				D246418C16C04B21005DB12C /* CoreData.framework */,
+				D246418D16C04B21005DB12C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D2765ED316EBDA360095A9C9 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				D2765EEF16EBDA4B0095A9C9 /* Localization */,
+				D2765EF016EBDA570095A9C9 /* Actual Plugin */,
+				D2765EF116EBDA6B0095A9C9 /* UI */,
+				D2765EF216EBDA820095A9C9 /* Tasks */,
+				D2765EF316EBDA8C0095A9C9 /* Helper */,
+			);
+			name = Plugin;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		D2765EEF16EBDA4B0095A9C9 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D2765EEC16EBDA470095A9C9 /* global.h */,
+				D2765EED16EBDA470095A9C9 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		D2765EF016EBDA570095A9C9 /* Actual Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				D2765ED816EBDA360095A9C9 /* JDPluginInstaller.h */,
+				D2765ED916EBDA360095A9C9 /* JDPluginInstaller.m */,
+				D2765EDA16EBDA360095A9C9 /* JDPluginManager.h */,
+				D2765EDB16EBDA360095A9C9 /* JDPluginManager.m */,
+				D2765EDC16EBDA360095A9C9 /* JDPluginMetaData.h */,
+				D2765EDD16EBDA360095A9C9 /* JDPluginMetaData.m */,
+			);
+			name = "Actual Plugin";
+			sourceTree = "<group>";
+		};
+		D2765EF116EBDA6B0095A9C9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D2765ED616EBDA360095A9C9 /* JDInstallProgressWindow.h */,
+				D2765ED716EBDA360095A9C9 /* JDInstallProgressWindow.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D2765EF216EBDA820095A9C9 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				D2765EE016EBDA360095A9C9 /* NSTaskWithProgress.h */,
+				D2765EE116EBDA360095A9C9 /* NSTaskWithProgress.m */,
+				D2765ED416EBDA360095A9C9 /* JDGitCloneTask.h */,
+				D2765ED516EBDA360095A9C9 /* JDGitCloneTask.m */,
+				D2765EDE16EBDA360095A9C9 /* JDXcodeBuildTask.h */,
+				D2765EDF16EBDA360095A9C9 /* JDXcodeBuildTask.m */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		D2765EF316EBDA8C0095A9C9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D2765EE216EBDA360095A9C9 /* NSURL+JDPluginManager.h */,
+				D2765EE316EBDA360095A9C9 /* NSURL+JDPluginManager.m */,
+				D2765EF416EBED830095A9C9 /* NSFileManager+JDPluginManager.h */,
+				D2765EF516EBED830095A9C9 /* NSFileManager+JDPluginManager.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		D2E2D31E16D4304B00447430 /* ExampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				D2E2D32116D4304B00447430 /* main.m */,
+				D2E2D32316D4304B00447430 /* TAAppDelegate.h */,
+				D2E2D32416D4304B00447430 /* TAAppDelegate.m */,
+				D2765ED316EBDA360095A9C9 /* Plugin */,
+				D2E2D32916D4305500447430 /* Resources */,
+			);
+			path = ExampleProject;
+			sourceTree = "<group>";
+		};
+		D2E2D32916D4305500447430 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2E2D31F16D4304B00447430 /* ExampleProject-Info.plist */,
+				D2E2D32016D4304B00447430 /* ExampleProject-Prefix.pch */,
+				D2E2D32216D4304B00447430 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D246418416C04B21005DB12C /* ExampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24641A216C04B21005DB12C /* Build configuration list for PBXNativeTarget "ExampleProject" */;
+			buildPhases = (
+				D246418116C04B21005DB12C /* Sources */,
+				D246418216C04B21005DB12C /* Frameworks */,
+				D246418316C04B21005DB12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleProject;
+			productName = ListInstalledPluginsTest;
+			productReference = D246418516C04B21005DB12C /* ExampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D246417D16C04B21005DB12C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nxtbgthng;
+			};
+			buildConfigurationList = D246418016C04B21005DB12C /* Build configuration list for PBXProject "ExampleProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D246417C16C04B21005DB12C;
+			productRefGroup = D246418616C04B21005DB12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D246418416C04B21005DB12C /* ExampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D246418316C04B21005DB12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E2D32716D4304B00447430 /* MainMenu.xib in Resources */,
+				D2765EEE16EBDA470095A9C9 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D246418116C04B21005DB12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E2D32616D4304B00447430 /* main.m in Sources */,
+				D2E2D32816D4304B00447430 /* TAAppDelegate.m in Sources */,
+				D2765EE416EBDA360095A9C9 /* JDGitCloneTask.m in Sources */,
+				D2765EE516EBDA360095A9C9 /* JDInstallProgressWindow.m in Sources */,
+				D2765EE616EBDA360095A9C9 /* JDPluginInstaller.m in Sources */,
+				D2765EE716EBDA360095A9C9 /* JDPluginManager.m in Sources */,
+				D2765EE816EBDA360095A9C9 /* JDPluginMetaData.m in Sources */,
+				D2765EE916EBDA360095A9C9 /* JDXcodeBuildTask.m in Sources */,
+				D2765EEA16EBDA360095A9C9 /* NSTaskWithProgress.m in Sources */,
+				D2765EEB16EBDA360095A9C9 /* NSURL+JDPluginManager.m in Sources */,
+				D2765EF616EBED830095A9C9 /* NSFileManager+JDPluginManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D24641A016C04B21005DB12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D24641A116C04B21005DB12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D24641A316C04B21005DB12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleProject/ExampleProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"JDPluginManagerTest=1",
+				);
+				INFOPLIST_FILE = "ExampleProject/ExampleProject-Info.plist";
+				PRODUCT_NAME = ExampleProject;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D24641A416C04B21005DB12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleProject/ExampleProject-Prefix.pch";
+				INFOPLIST_FILE = "ExampleProject/ExampleProject-Info.plist";
+				PRODUCT_NAME = ExampleProject;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D246418016C04B21005DB12C /* Build configuration list for PBXProject "ExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24641A016C04B21005DB12C /* Debug */,
+				D24641A116C04B21005DB12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24641A216C04B21005DB12C /* Build configuration list for PBXNativeTarget "ExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24641A316C04B21005DB12C /* Debug */,
+				D24641A416C04B21005DB12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D246417D16C04B21005DB12C /* Project object */;
+}

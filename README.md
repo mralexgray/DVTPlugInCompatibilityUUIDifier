@@ -1,35 +1,36 @@
 
-# DVTPlugInCompatibilityUUIDifier
+# `DVTPlugInCompatibilityUUIDifier`
 
-<div style='float: center'>
-<img style='width: 600px' src="./Screenshots/alcatraz.art.png"></img>
-</div>
+![Sreneity Now](https://github.com/mralexgray/DVTPlugInCompatibilityUUIDifier/raw/master/Screenshots/alcatraz.art.png)
+
+## _Permanent, automatic, and hassle-free_ Xcode upgrades.
+
+- [x] Are you *sick and tired* of thinking about / dealing with Alcatraz / all your Xcode plugins breaking with each Xcode release?
+
+- [x] Have you tried those other hacks, and still you can't keep up with all the compatibility UUID's?
+
+- [x] Does the fact that Alcatraz doesn't do this automcatically make you want to jump off a cliff?
+
+### Stop the insanity!!
+
+Through the magic of science, the ever-incompatible [`Alcatraz`](http://alcatraz.io) (and all it's little friends) will now "magically" BE compatible.  Wow.  Imagine.  If something doesn't work, don't cry!  *Just delete the offending plugin-in* from ``~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/` and move on!  You can always just install it later (now that you can depend on ALcatraz being around!)  
+
+### Mo' Xcode's.. Mo' Problems..
+
+--Xcode: PluginLoading: Required plug-in compatibility UUID XYZ-123-KILL-KILL-ALCATRAZ for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SomeHaplessPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs--
 
 
-## Serenity now! _Perpetual, automatic, and hassle-free_ Xcode -> plugin upgrades.
+###**Serenity Now!**
 
-Are you *sick and tired* of thinking about / dealing with Alcatraz / all your Xcode plugins breaking with each Xcode release?
+- Automatically updates ALL your plugin's with ALL your installed Xcodes' various required UUID's, automatically!
+- Make sure Alcatraz is ready to go when you update Xcode, without having to do ANYTHING!
+- Works even when Xcode is closed, or if something changes with your plugins!
+- Notifies you politely when it does something, or runs a check!
 
-Would you rather just WORK than think about compatibility UUID's?
+**Behold**
 
-Does the fact that Alcatraz doesn't do this automcatically make you want to jump off a cliff?
 
-`
-Xcode: [MT] PluginLoading: Required plug-in compatibility UUID XYZ-123-KILL-KILL-ALCATRAZ for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SomeHaplessPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-`
-
-**Key Features:**
-
-- Automatically updates ALL your plugin's with ALL your various Xcode's UUID's.
-- Automatically updates Alcatraz when you update Xcode, without having to do ANYTHING!
-- Works even when Xcode is closed!
-- Notifies you when it does something!
-
-**Screenshots:**
-
-![Menu](https://github.com/kattrali/cocoadocs-xcode-plugin/raw/master/menu.png)
-
-![Screenshot](Screenshots/Notification.png "Notifications!")
+![Screenshot](https://github.com/mralexgray/DVTPlugInCompatibilityUUIDifier/raw/master/Screenshots/notification.png "Notifications!")
 
 ## Installation
 

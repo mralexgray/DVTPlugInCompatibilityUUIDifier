@@ -93,7 +93,7 @@ static NSString * plugPath = nil;
     [a addObjectsFromArray:self.allCompatibilityUUIDs];
     d[kCompatibilityUUIDsKey] = [NSSet setWithArray:a].allObjects;
     BOOL ok = [d writeToFile:plpath atomically:YES];
-    ok ? [fixed addObject:[x stringByDeletingPathExtension]] : NSBeep();
+    ok ? [fixed addObject:[x stringByDeletingPathExtension]] : nil;
     NSLog(@"%@: %@", ok ? @"FIXED" : @"FAILED TO FIX", x);
   }
   [self _notify: fixed.count ? [fixed componentsJoinedByString:@" "] : @"All Plugins OK"];

@@ -1,12 +1,5 @@
-//
-//  DVTCompatibilitizer.h
-//  DVTPlugInCompatibilityUUIDifier
-//
-//  Created by Alex Gray on 10/27/15.
-//
-//
 
-@import AppKit;
+@import Foundation;
 
 @interface DVTCompatibilitizer : NSObject
 

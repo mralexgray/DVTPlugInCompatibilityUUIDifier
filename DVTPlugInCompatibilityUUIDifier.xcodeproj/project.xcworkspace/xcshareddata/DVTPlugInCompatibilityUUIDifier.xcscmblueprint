@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C97B7A3CADCA67A0B7A54F240A9FC29D428AD3EA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C97B7A3CADCA67A0B7A54F240A9FC29D428AD3EA" : 0,
+    "32DCFAAC2A3841429E93FB3695A9B4C5B7E9CEB6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "68B6D804-73DC-4CA5-99BE-AA281F6FDCD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C97B7A3CADCA67A0B7A54F240A9FC29D428AD3EA" : "DVTPlugInCompatibilityUUIDifier\/",
+    "32DCFAAC2A3841429E93FB3695A9B4C5B7E9CEB6" : "DVTPlugInCompatibilityUUIDifier\/AHLaunchCtl\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DVTPlugInCompatibilityUUIDifier",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DVTPlugInCompatibilityUUIDifier.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eahrold\/AHLaunchCtl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32DCFAAC2A3841429E93FB3695A9B4C5B7E9CEB6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mralexgray\/DVTPlugInCompatibilityUUIDifier.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C97B7A3CADCA67A0B7A54F240A9FC29D428AD3EA"
+    }
+  ]
+}

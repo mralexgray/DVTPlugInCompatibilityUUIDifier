@@ -1,10 +1,18 @@
+
 # DVTPlugInCompatibilityUUIDifier
 
-## Serenity now! _Perpetual, automatic, and hassle-free_ Xcode plugin compatibility.
+<div style='float: center'>
+<img style='width: 600px' src="./Screenshots/alcatraz.art.png"></img>
+</div>
 
-Are you *sick and tired* of thinking about / dealing with compatibility UUID's every time you update Xcode?
 
-Does reading this make you want to jump off a cliff?
+## Serenity now! _Perpetual, automatic, and hassle-free_ Xcode -> plugin upgrades.
+
+Are you *sick and tired* of thinking about / dealing with Alcatraz / all your Xcode plugins breaking with each Xcode release?
+
+Would you rather just WORK than think about compatibility UUID's?
+
+Does the fact that Alcatraz doesn't do this automcatically make you want to jump off a cliff?
 
 `
 Xcode: [MT] PluginLoading: Required plug-in compatibility UUID XYZ-123-KILL-KILL-ALCATRAZ for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SomeHaplessPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
@@ -19,9 +27,9 @@ Xcode: [MT] PluginLoading: Required plug-in compatibility UUID XYZ-123-KILL-KILL
 
 **Screenshots:**
 
-![Screenshot](assets/screenshot1.png "Menu Screenshot")
-![Screenshot](assets/screenshot2.png "Uninstall Screenshot")
-![Screenshot](assets/screenshot3.png "Installation Screenshot")
+![Menu](https://github.com/kattrali/cocoadocs-xcode-plugin/raw/master/menu.png)
+
+![Screenshot](Screenshots/Notification.png "Notifications!")
 
 ## Installation
 

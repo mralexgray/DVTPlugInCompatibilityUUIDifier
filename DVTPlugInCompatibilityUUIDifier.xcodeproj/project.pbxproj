@@ -78,15 +78,12 @@
 		089C166AFE841209C02AAC07 /* QuietXcode */ = {
 			isa = PBXGroup;
 			children = (
-				7B2153371BE0545900BDE9AE /* README.md */,
-				7B6A68011BE046D80023C7D8 /* AHLaunchCtl */,
-				7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */,
 				7B91FE901BE023E200F3BF55 /* DVTCompatibilitizer.h */,
 				7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */,
-				D2E2D2E016D42CCC00447430 /* DVTPlugInCompatibilityUUIDifier-Info.plist */,
+				7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */,
 				7B6A67C41BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog.m */,
+				7B2153381BE0BE2B00BDE9AE /* Support */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
-				7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */,
 			);
 			name = QuietXcode;
 			sourceTree = "<group>";
@@ -98,6 +95,17 @@
 				7B6A67C21BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7B2153381BE0BE2B00BDE9AE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7B2153371BE0545900BDE9AE /* README.md */,
+				7B6A68011BE046D80023C7D8 /* AHLaunchCtl */,
+				D2E2D2E016D42CCC00447430 /* DVTPlugInCompatibilityUUIDifier-Info.plist */,
+				7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 		7B6A68011BE046D80023C7D8 /* AHLaunchCtl */ = {

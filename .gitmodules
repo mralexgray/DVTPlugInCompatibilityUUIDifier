@@ -1,0 +1,3 @@
+[submodule "AHLaunchCtl"]
+	path = AHLaunchCtl
+	url = https://github.com/eahrold/AHLaunchCtl.git

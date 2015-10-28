@@ -1,15 +1,21 @@
-# JDPluginManager
+# DVTPlugInCompatibilityUUIDifier
 
-## Overview
+## Serenity now! _Perpetual, automatic, and hassle-free_ Xcode plugin compatibility.
 
-Are you using a lot of XCode Plugins?  
-This plugin makes it easy to install, update and remove them. It adds a new MenuItem `Plugins` in the Menu Bar of Xcode, as you can see in the screenshots.
+Are you *sick and tired* of thinking about / dealing with compatibility UUID's every time you update Xcode?
+
+Does reading this make you want to jump off a cliff?
+
+`
+Xcode: [MT] PluginLoading: Required plug-in compatibility UUID XYZ-123-KILL-KILL-ALCATRAZ for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SomeHaplessPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+`
 
 **Key Features:**
 
-- Install plugins easily by just entering a git repository url
-- One-click updates (for plugins installed with JDPluginManager)
-- Uninstall plugins
+- Automatically updates ALL your plugin's with ALL your various Xcode's UUID's.
+- Automatically updates Alcatraz when you update Xcode, without having to do ANYTHING!
+- Works even when Xcode is closed!
+- Notifies you when it does something!
 
 **Screenshots:**
 

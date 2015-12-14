@@ -1,5 +1,6 @@
 
 @import Foundation;
+@import CoreServices;
 
 @interface DVTCompatibilitizer : NSObject
 
@@ -11,3 +12,11 @@
 +      (void) watchAndFixPluginsAsNeeded;
 
 @end
+
+#define kCompatibilityUUIDKey @"DVTPlugInCompatibilityUUID"
+#define kCompatibilityUUIDsKey  kCompatibilityUUIDKey @"s"
+#define kInfoPlistComponent @"Contents/Info.plist"
+#define FM NSFileManager.defaultManager
+
+#define kPluginsDirectoryPath @"~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/"
+#define kXcodePluginSuffix @".xcplugin"

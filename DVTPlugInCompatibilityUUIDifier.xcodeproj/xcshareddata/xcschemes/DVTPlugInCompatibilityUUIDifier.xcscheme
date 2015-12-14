@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "git submodule update --init --recursive">
+               scriptText = "if [ ! -d AHLaunchCTL ]; then&#10;    git submodule update --init --recursive&#10;fi">
             </ActionContent>
          </ExecutionAction>
       </PreActions>

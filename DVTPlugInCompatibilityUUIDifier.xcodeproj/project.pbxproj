@@ -18,7 +18,6 @@
 		7B6A68161BE046D80023C7D8 /* AHServiceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680C1BE046D80023C7D8 /* AHServiceManagement.m */; };
 		7B6A68171BE046D80023C7D8 /* NSFileManger+Privileged.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680F1BE046D80023C7D8 /* NSFileManger+Privileged.m */; };
 		7B6A68181BE046D80023C7D8 /* NSString+ah_versionCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68111BE046D80023C7D8 /* NSString+ah_versionCompare.m */; };
-		7B91FE921BE023E200F3BF55 /* DVTCompatibilitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */; };
 		7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +66,6 @@
 		7B6A680F1BE046D80023C7D8 /* NSFileManger+Privileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManger+Privileged.m"; sourceTree = "<group>"; };
 		7B6A68101BE046D80023C7D8 /* NSString+ah_versionCompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ah_versionCompare.h"; sourceTree = "<group>"; };
 		7B6A68111BE046D80023C7D8 /* NSString+ah_versionCompare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ah_versionCompare.m"; sourceTree = "<group>"; };
-		7B89A34A1C1F1AB0000ADD8D /* scratch */ = {isa = PBXFileReference; lastKnownFileType = text; path = scratch; sourceTree = "<group>"; };
 		7B91FE901BE023E200F3BF55 /* DVTCompatibilitizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCompatibilitizer.h; sourceTree = "<group>"; };
 		7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVTCompatibilitizer.m; sourceTree = "<group>"; };
 		7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVTPlugInCompatibilityUUIDifier.m; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 			children = (
 				7B91FE901BE023E200F3BF55 /* DVTCompatibilitizer.h */,
 				7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */,
-				7B89A34A1C1F1AB0000ADD8D /* scratch */,
 				7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */,
 				7B6A67C41BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog.m */,
 				7B2153381BE0BE2B00BDE9AE /* Support */,
@@ -221,7 +218,6 @@
 				7B6A68141BE046D80023C7D8 /* AHLaunchJob.m in Sources */,
 				7B6A68161BE046D80023C7D8 /* AHServiceManagement.m in Sources */,
 				7B6A68181BE046D80023C7D8 /* NSString+ah_versionCompare.m in Sources */,
-				7B91FE921BE023E200F3BF55 /* DVTCompatibilitizer.m in Sources */,
 				7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */,
 				7B6A68171BE046D80023C7D8 /* NSFileManger+Privileged.m in Sources */,
 				7B6A68121BE046D80023C7D8 /* AHAuthorizer.m in Sources */,

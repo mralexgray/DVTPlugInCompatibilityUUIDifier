@@ -1,9 +1,7 @@
 
 #import "AHLaunchCtl.h"
 
-@interface DVTPlugInCompatibilityUUIDifier : NSObject
-@end
-
+@interface			DVTPlugInCompatibilityUUIDifier : NSObject @end
 @implementation DVTPlugInCompatibilityUUIDifier
 
 
@@ -21,7 +19,7 @@
   NSError   * error = nil;
   NSBundle * bundle = [NSBundle bundleForClass:self.class];
   id        jobname = bundle.bundleIdentifier,
-           watchdog = [bundle pathForAuxiliaryExecutable:@"DVTPlugInCompatibilityWatchdog"];
+					 watchdog = [bundle pathForAuxiliaryExecutable:@"DVTPlugInCompatibilityWatchdog"];
 
   [AHLaunchCtl.sharedController unload:jobname inDomain:kAHUserLaunchAgent error:&error];
 
@@ -31,7 +29,7 @@
   job.ProgramArguments = @[watchdog];
   job.RunAtLoad        = YES;
 
-  BOOL __unused loaded = [AHLaunchCtl.sharedController add:job toDomain:kAHUserLaunchAgent error:&error];
+	[AHLaunchCtl.sharedController add:job toDomain:kAHUserLaunchAgent error:&error];
 
 //  NSLog(@"[%@] LOADED: %@  Error: %@", NSStringFromClass(self.class), loaded ?  @"YES" : @"NO", error);
 

@@ -1,9 +1,20 @@
 
 #import "DVTCompatibilitizer.h"
 
+@import CoreServices;
+
+#define			kXcodePluginSuffix	@".xcplugin"
+#define  kPluginsDirectoryPath	@"~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/"
+#define  kCompatibilityUUIDKey	@"DVTPlugInCompatibilityUUID"
+#define kCompatibilityUUIDsKey  kCompatibilityUUIDKey @"s"
+#define    kInfoPlistComponent	@"Contents/Info.plist"
+#define											FM	NSFileManager.defaultManager
+
 @implementation DVTCompatibilitizer
 
 + (void) watchAndFixPluginsAsNeeded {
+
+	[self notify:@"Xcode Plugin watchdog running!"];
 
   NSArray * pathsToWatch = [self.installedXcodes arrayByAddingObjectsFromArray:@[self.pluginsDirectoryPath]];
 
@@ -56,7 +67,7 @@
 
     NSLog(@"%@: %@", ok ? @"FIXED" : @"FAILED TO FIX", x);
   }
-  [self _notify: fixed.count ? [fixed componentsJoinedByString:@" "] : @"All Plugins OK"];
+  [self notify: fixed.count ? [fixed componentsJoinedByString:@" "] : @"All Plugins OK"];
 }
 
 #pragma mark - Static Info Fetchers
@@ -100,7 +111,7 @@
 
 #pragma mark - Utility
 
-+ (void) _notify:(NSString*) reason {  // Posts notifications on our behalf!
++ (void) notify:reason {  // Posts notifications on our behalf!
 
   id notifier = [[[NSBundle bundleForClass:self]
 								pathForAuxiliaryExecutable:@"DVTCompatibilitizer.notfier.app"]

@@ -218,10 +218,10 @@
 				7B6A68141BE046D80023C7D8 /* AHLaunchJob.m in Sources */,
 				7B6A68161BE046D80023C7D8 /* AHServiceManagement.m in Sources */,
 				7B6A68181BE046D80023C7D8 /* NSString+ah_versionCompare.m in Sources */,
-				7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */,
 				7B6A68171BE046D80023C7D8 /* NSFileManger+Privileged.m in Sources */,
 				7B6A68121BE046D80023C7D8 /* AHAuthorizer.m in Sources */,
 				7B6A68131BE046D80023C7D8 /* AHLaunchCtl.m in Sources */,
+				7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

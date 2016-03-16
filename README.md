@@ -61,6 +61,30 @@ or use the great [JDPluginManager](https://github.com/jaydee3/JDPluginManager), 
 
 and restart `Xcode`.
 
+## Big picture / implementation details.
+
+First of all, this project requires [AHLaunchCTL](https://github.com/mralexgray/AHLaunchCTL).  However, if you forget to update/init your submodules, there is a pre-build step, 
+
+    if [ ! -d AHLaunchCTL ]; then git submodule update --init --recursive; fi
+
+that will handle it for you.
+
+One problem the first version of this plug-in faced, was that when...
+
+A. When Apple releases a new version of Xcode...
+B. I have yet to upgrade this plugin's list of PlugIn CompatibilityUUID's...
+C. Someone tries to install a NEW copy of this plugin...
+
+that this plugin _never loads_, the watchdog _never runs_, and we are back to "square one".
+
+> Existing users of this plug-in should be unafftected, as the watchdog is already running, theoretically, actively fixing all your plug-ins.
+    
+The solution is a bit hacky.. but again, inside of Xcode's build settings, I've added a "Post-Build" script...
+
+![Hackity hack](https://github.com/mralexgray/DVTPlugInCompatibilityUUIDifier/raw/master/Screenshots/hacky.workaround.png)
+
+which simply brute-force launches the included watchdog. This way.. EVEN if Xcode NEVER has loaded this plugin (due to it being fucking UUID incompatible)...  it won't matter.  Simply by being built successfully... the watchdog will be running.. and you will be protectced from the ravages of small inconvenience!
+
 ## Twitter
 
 I'm [@mralexgray](http://twitter.com/mralexgray) on Twitter. Please [tweet](https://twitter.com/intent/tweet?button_hashtag=DVTPlugInCompatibilityUUIDifier&text=Permanent%2C+automatic%2C+and+hassle-free+Xcode%2FAlcatraz+upgrades.%20http%3A%2F%2Flinks.mrgray.com%2FMoPluginsMoProblems&via=mralexgray) about the plugin. 

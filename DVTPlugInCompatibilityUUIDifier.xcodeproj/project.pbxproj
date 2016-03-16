@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B6A67C51BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A67C41BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog.m */; };
+		7B2693841C56C8A200D626B5 /* AHLaunchCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68061BE046D80023C7D8 /* AHLaunchCtl.m */; };
+		7B2693851C56C8A200D626B5 /* AHLaunchJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68081BE046D80023C7D8 /* AHLaunchJob.m */; };
+		7B2693861C56C8A200D626B5 /* AHServiceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680C1BE046D80023C7D8 /* AHServiceManagement.m */; };
+		7B2693871C56C8A200D626B5 /* NSString+ah_versionCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68111BE046D80023C7D8 /* NSString+ah_versionCompare.m */; };
 		7B6A67C81BE02CFA0023C7D8 /* DVTCompatibilitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */; };
 		7B6A67CE1BE03FED0023C7D8 /* DVTPlugInCompatibilityWatchdog in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B6A67C21BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		7B6A67D01BE0400E0023C7D8 /* DVTCompatibilitizer.notfier.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7B6A68121BE046D80023C7D8 /* AHAuthorizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68031BE046D80023C7D8 /* AHAuthorizer.m */; };
 		7B6A68131BE046D80023C7D8 /* AHLaunchCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68061BE046D80023C7D8 /* AHLaunchCtl.m */; };
 		7B6A68141BE046D80023C7D8 /* AHLaunchJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68081BE046D80023C7D8 /* AHLaunchJob.m */; };
-		7B6A68151BE046D80023C7D8 /* AHLaunchJobSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680A1BE046D80023C7D8 /* AHLaunchJobSchedule.m */; };
 		7B6A68161BE046D80023C7D8 /* AHServiceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680C1BE046D80023C7D8 /* AHServiceManagement.m */; };
-		7B6A68171BE046D80023C7D8 /* NSFileManger+Privileged.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680F1BE046D80023C7D8 /* NSFileManger+Privileged.m */; };
 		7B6A68181BE046D80023C7D8 /* NSString+ah_versionCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68111BE046D80023C7D8 /* NSString+ah_versionCompare.m */; };
+		7B8BD8D31C99FF5900C6B44A /* WatchDogLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2693811C56C70800D626B5 /* WatchDogLauncher.m */; };
+		7B8BD8D41C99FF5900C6B44A /* WatchDogLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2693811C56C70800D626B5 /* WatchDogLauncher.m */; };
 		7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +49,8 @@
 
 /* Begin PBXFileReference section */
 		7B2153371BE0545900BDE9AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7B2693811C56C70800D626B5 /* WatchDogLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchDogLauncher.m; sourceTree = "<group>"; };
 		7B6A67C21BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DVTPlugInCompatibilityWatchdog; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B6A67C41BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVTPlugInCompatibilityWatchdog.m; sourceTree = "<group>"; };
 		7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = DVTCompatibilitizer.notfier.app; sourceTree = "<group>"; };
 		7B6A68021BE046D80023C7D8 /* AHAuthorizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHAuthorizer.h; sourceTree = "<group>"; };
 		7B6A68031BE046D80023C7D8 /* AHAuthorizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHAuthorizer.m; sourceTree = "<group>"; };
@@ -66,9 +68,9 @@
 		7B6A680F1BE046D80023C7D8 /* NSFileManger+Privileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManger+Privileged.m"; sourceTree = "<group>"; };
 		7B6A68101BE046D80023C7D8 /* NSString+ah_versionCompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ah_versionCompare.h"; sourceTree = "<group>"; };
 		7B6A68111BE046D80023C7D8 /* NSString+ah_versionCompare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ah_versionCompare.m"; sourceTree = "<group>"; };
-		7B91FE901BE023E200F3BF55 /* DVTCompatibilitizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCompatibilitizer.h; sourceTree = "<group>"; };
 		7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVTCompatibilitizer.m; sourceTree = "<group>"; };
 		7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVTPlugInCompatibilityUUIDifier.m; sourceTree = "<group>"; };
+		7BFD276F1C236478009649CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = AHLaunchCtl/README.md; sourceTree = SOURCE_ROOT; };
 		8D5B49B6048680CD000E48DA /* DVTPlugInCompatibilityUUIDifier.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVTPlugInCompatibilityUUIDifier.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E2D2E016D42CCC00447430 /* DVTPlugInCompatibilityUUIDifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DVTPlugInCompatibilityUUIDifier-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,12 +79,11 @@
 		089C166AFE841209C02AAC07 /* QuietXcode */ = {
 			isa = PBXGroup;
 			children = (
-				7B91FE901BE023E200F3BF55 /* DVTCompatibilitizer.h */,
-				7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */,
-				7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */,
-				7B6A67C41BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog.m */,
-				7B2153381BE0BE2B00BDE9AE /* Support */,
+				7B8BD8D21C99F8C500C6B44A /* Watchdog */,
+				7B8BD8D11C99F8BA00C6B44A /* Plug-In */,
+				7B2153381BE0BE2B00BDE9AE /* Shared */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
+				7B2153371BE0545900BDE9AE /* README.md */,
 			);
 			name = QuietXcode;
 			sourceTree = "<group>";
@@ -96,20 +97,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B2153381BE0BE2B00BDE9AE /* Support */ = {
+		7B2153381BE0BE2B00BDE9AE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				7B2153371BE0545900BDE9AE /* README.md */,
 				7B6A68011BE046D80023C7D8 /* AHLaunchCtl */,
-				D2E2D2E016D42CCC00447430 /* DVTPlugInCompatibilityUUIDifier-Info.plist */,
-				7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */,
+				7B2693811C56C70800D626B5 /* WatchDogLauncher.m */,
 			);
-			name = Support;
+			name = Shared;
 			sourceTree = "<group>";
 		};
 		7B6A68011BE046D80023C7D8 /* AHLaunchCtl */ = {
 			isa = PBXGroup;
 			children = (
+				7BFD276F1C236478009649CB /* README.md */,
 				7B6A68021BE046D80023C7D8 /* AHAuthorizer.h */,
 				7B6A68031BE046D80023C7D8 /* AHAuthorizer.m */,
 				7B6A68041BE046D80023C7D8 /* AHLaunchCtl-Prefix.pch */,
@@ -129,6 +129,24 @@
 			);
 			name = AHLaunchCtl;
 			path = AHLaunchCtl/AHLaunchCtl;
+			sourceTree = "<group>";
+		};
+		7B8BD8D11C99F8BA00C6B44A /* Plug-In */ = {
+			isa = PBXGroup;
+			children = (
+				D2E2D2E016D42CCC00447430 /* DVTPlugInCompatibilityUUIDifier-Info.plist */,
+				7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */,
+				7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */,
+			);
+			name = "Plug-In";
+			sourceTree = "<group>";
+		};
+		7B8BD8D21C99F8C500C6B44A /* Watchdog */ = {
+			isa = PBXGroup;
+			children = (
+				7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */,
+			);
+			name = Watchdog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6A67C51BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog.m in Sources */,
 				7B6A67C81BE02CFA0023C7D8 /* DVTCompatibilitizer.m in Sources */,
+				7B2693841C56C8A200D626B5 /* AHLaunchCtl.m in Sources */,
+				7B2693851C56C8A200D626B5 /* AHLaunchJob.m in Sources */,
+				7B8BD8D31C99FF5900C6B44A /* WatchDogLauncher.m in Sources */,
+				7B2693861C56C8A200D626B5 /* AHServiceManagement.m in Sources */,
+				7B2693871C56C8A200D626B5 /* NSString+ah_versionCompare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6A68151BE046D80023C7D8 /* AHLaunchJobSchedule.m in Sources */,
+				7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */,
+				7B6A68131BE046D80023C7D8 /* AHLaunchCtl.m in Sources */,
 				7B6A68141BE046D80023C7D8 /* AHLaunchJob.m in Sources */,
+				7B8BD8D41C99FF5900C6B44A /* WatchDogLauncher.m in Sources */,
 				7B6A68161BE046D80023C7D8 /* AHServiceManagement.m in Sources */,
 				7B6A68181BE046D80023C7D8 /* NSString+ah_versionCompare.m in Sources */,
-				7B6A68171BE046D80023C7D8 /* NSFileManger+Privileged.m in Sources */,
-				7B6A68121BE046D80023C7D8 /* AHAuthorizer.m in Sources */,
-				7B6A68131BE046D80023C7D8 /* AHLaunchCtl.m in Sources */,
-				7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +259,6 @@
 		1DEB913B08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -267,8 +286,10 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
 				INSTALL_PATH = "$(HOME)/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +300,6 @@
 		7B6A67C71BE02C980023C7D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -308,6 +328,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = AHLaunchCtl;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

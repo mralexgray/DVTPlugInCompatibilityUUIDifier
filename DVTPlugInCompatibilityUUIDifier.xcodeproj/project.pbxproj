@@ -20,6 +20,13 @@
 		7B6A68181BE046D80023C7D8 /* NSString+ah_versionCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68111BE046D80023C7D8 /* NSString+ah_versionCompare.m */; };
 		7B8BD8D31C99FF5900C6B44A /* WatchDogLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2693811C56C70800D626B5 /* WatchDogLauncher.m */; };
 		7B8BD8D41C99FF5900C6B44A /* WatchDogLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2693811C56C70800D626B5 /* WatchDogLauncher.m */; };
+		7B8BD8D51C9A0BA500C6B44A /* AHAuthorizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68031BE046D80023C7D8 /* AHAuthorizer.m */; };
+		7B8BD8D61C9A0BAA00C6B44A /* DVTCompatibilitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */; };
+		7B8BD8D71C9A0BAA00C6B44A /* AHAuthorizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68031BE046D80023C7D8 /* AHAuthorizer.m */; };
+		7B8BD8D81C9A0BC600C6B44A /* AHLaunchJobSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680A1BE046D80023C7D8 /* AHLaunchJobSchedule.m */; };
+		7B8BD8D91C9A0BCF00C6B44A /* AHLaunchJobSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680A1BE046D80023C7D8 /* AHLaunchJobSchedule.m */; };
+		7B8BD8DA1C9A17A700C6B44A /* NSFileManger+Privileged.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680F1BE046D80023C7D8 /* NSFileManger+Privileged.m */; };
+		7B8BD8DB1C9A17A800C6B44A /* NSFileManger+Privileged.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680F1BE046D80023C7D8 /* NSFileManger+Privileged.m */; };
 		7B953EEF1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */; };
 /* End PBXBuildFile section */
 
@@ -226,7 +233,10 @@
 				7B6A67C81BE02CFA0023C7D8 /* DVTCompatibilitizer.m in Sources */,
 				7B2693841C56C8A200D626B5 /* AHLaunchCtl.m in Sources */,
 				7B2693851C56C8A200D626B5 /* AHLaunchJob.m in Sources */,
+				7B8BD8DA1C9A17A700C6B44A /* NSFileManger+Privileged.m in Sources */,
 				7B8BD8D31C99FF5900C6B44A /* WatchDogLauncher.m in Sources */,
+				7B8BD8D81C9A0BC600C6B44A /* AHLaunchJobSchedule.m in Sources */,
+				7B8BD8D51C9A0BA500C6B44A /* AHAuthorizer.m in Sources */,
 				7B2693861C56C8A200D626B5 /* AHServiceManagement.m in Sources */,
 				7B2693871C56C8A200D626B5 /* NSString+ah_versionCompare.m in Sources */,
 			);
@@ -240,8 +250,12 @@
 				7B6A68131BE046D80023C7D8 /* AHLaunchCtl.m in Sources */,
 				7B6A68141BE046D80023C7D8 /* AHLaunchJob.m in Sources */,
 				7B8BD8D41C99FF5900C6B44A /* WatchDogLauncher.m in Sources */,
+				7B8BD8D61C9A0BAA00C6B44A /* DVTCompatibilitizer.m in Sources */,
 				7B6A68161BE046D80023C7D8 /* AHServiceManagement.m in Sources */,
+				7B8BD8D91C9A0BCF00C6B44A /* AHLaunchJobSchedule.m in Sources */,
 				7B6A68181BE046D80023C7D8 /* NSString+ah_versionCompare.m in Sources */,
+				7B8BD8D71C9A0BAA00C6B44A /* AHAuthorizer.m in Sources */,
+				7B8BD8DB1C9A17A800C6B44A /* NSFileManger+Privileged.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

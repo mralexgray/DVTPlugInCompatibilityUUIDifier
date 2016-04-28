@@ -3,7 +3,7 @@
 
 ![Sreneity Now](https://github.com/mralexgray/DVTPlugInCompatibilityUUIDifier/raw/master/Screenshots/alcatraz.art.png)
 
-## _Permanent, automatic, and hassle-free_ `Xcode`/`Alcatraz` "compatibility" upgrades.
+## _Permanent, automatic, and hassle-free_ `Xcode`/`Alcatraz` "`UUID compatibility`" "upgrades".
 
 - [x] Are you *sick and tired* of thinking about / dealing with `Alcatraz` / all your `Xcode` plugins breaking with each `Xcode` release?
 
@@ -63,6 +63,26 @@ and restart `Xcode`.
 
 ## Big picture / implementation details.
 
+DVTPlugInCompatibilityUUIDifier.xcplugin  
+└── Contents
+    ├── Info.plist
+    └── MacOS
+        ├── DVTPlugInCompatibilityUUIDifier  // The bundle's executable.
+        ├── DVTPlugInCompatibilityWatchdog   // The LaunchAgent that will always run.
+        └── DVTCompatibilitizer.notfier.app  // This bunlded app handles notifications
+            └── Contents
+                ├── Info.plist
+                ├── MacOS
+                │   └── applet
+                ├── PkgInfo
+                └── Resources
+                    ├── Scripts
+                    │   └── main.scpt
+                    ├── applet.icns
+                    ├── applet.rsrc
+                    └── description.rtfd
+                        └── TXT.rtf
+
 First of all, this project requires [AHLaunchCTL](https://github.com/mralexgray/AHLaunchCTL).  However, if you forget to update/init your submodules, there is a pre-build step, 
 
     if [ ! -d AHLaunchCTL ]; then git submodule update --init --recursive; fi
@@ -84,6 +104,11 @@ The solution is a bit hacky.. but again, inside of Xcode's build settings, I've 
 ![Hackity hack](https://github.com/mralexgray/DVTPlugInCompatibilityUUIDifier/raw/master/Screenshots/hacky.workaround.png)
 
 which simply brute-force launches the included watchdog. This way.. EVEN if Xcode NEVER has loaded this plugin (due to it being fucking UUID incompatible)...  it won't matter.  Simply by being built successfully... the watchdog will be running.. and you will be protectced from the ravages of small inconvenience!
+
+## Tests
+
+Not only does the watchdog protect you from Alcatraz's refusal to self-update, and Apple's Nazi-esque "compatibility" police..  but it can ALSO test itself...  This isn't more than an internal mechanisms, but I might as well document it here, for my own benfit.
+
 
 ## Twitter
 

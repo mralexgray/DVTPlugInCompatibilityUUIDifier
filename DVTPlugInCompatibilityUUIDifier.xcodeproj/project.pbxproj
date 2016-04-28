@@ -11,9 +11,9 @@
 		7B2693851C56C8A200D626B5 /* AHLaunchJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68081BE046D80023C7D8 /* AHLaunchJob.m */; };
 		7B2693861C56C8A200D626B5 /* AHServiceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680C1BE046D80023C7D8 /* AHServiceManagement.m */; };
 		7B2693871C56C8A200D626B5 /* NSString+ah_versionCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68111BE046D80023C7D8 /* NSString+ah_versionCompare.m */; };
+		7B2C222E1CA9EF200064B31E /* DVTCompatibilitizerNotificationProxy.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B2C222D1CA9EF190064B31E /* DVTCompatibilitizerNotificationProxy.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7B6A67C81BE02CFA0023C7D8 /* DVTCompatibilitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91FE911BE023E200F3BF55 /* DVTCompatibilitizer.m */; };
 		7B6A67CE1BE03FED0023C7D8 /* DVTPlugInCompatibilityWatchdog in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B6A67C21BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		7B6A67D01BE0400E0023C7D8 /* DVTCompatibilitizer.notfier.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7B6A68131BE046D80023C7D8 /* AHLaunchCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68061BE046D80023C7D8 /* AHLaunchCtl.m */; };
 		7B6A68141BE046D80023C7D8 /* AHLaunchJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A68081BE046D80023C7D8 /* AHLaunchJob.m */; };
 		7B6A68161BE046D80023C7D8 /* AHServiceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A680C1BE046D80023C7D8 /* AHServiceManagement.m */; };
@@ -48,17 +48,17 @@
 			dstSubfolderSpec = 6;
 			files = (
 				7B6A67CE1BE03FED0023C7D8 /* DVTPlugInCompatibilityWatchdog in CopyFiles */,
-				7B6A67D01BE0400E0023C7D8 /* DVTCompatibilitizer.notfier.app in CopyFiles */,
+				7B2C222E1CA9EF200064B31E /* DVTCompatibilitizerNotificationProxy.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7B2153371BE0545900BDE9AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7B2153371BE0545900BDE9AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 		7B2693811C56C70800D626B5 /* WatchDogLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchDogLauncher.m; sourceTree = "<group>"; };
+		7B2C222D1CA9EF190064B31E /* DVTCompatibilitizerNotificationProxy.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = DVTCompatibilitizerNotificationProxy.app; sourceTree = "<group>"; };
 		7B6A67C21BE02C980023C7D8 /* DVTPlugInCompatibilityWatchdog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DVTPlugInCompatibilityWatchdog; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = DVTCompatibilitizer.notfier.app; sourceTree = "<group>"; };
 		7B6A68021BE046D80023C7D8 /* AHAuthorizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHAuthorizer.h; sourceTree = "<group>"; };
 		7B6A68031BE046D80023C7D8 /* AHAuthorizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHAuthorizer.m; sourceTree = "<group>"; };
 		7B6A68041BE046D80023C7D8 /* AHLaunchCtl-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AHLaunchCtl-Prefix.pch"; sourceTree = "<group>"; };
@@ -141,8 +141,8 @@
 		7B8BD8D11C99F8BA00C6B44A /* Plug-In */ = {
 			isa = PBXGroup;
 			children = (
+				7B2C222D1CA9EF190064B31E /* DVTCompatibilitizerNotificationProxy.app */,
 				D2E2D2E016D42CCC00447430 /* DVTPlugInCompatibilityUUIDifier-Info.plist */,
-				7B6A67CF1BE0400A0023C7D8 /* DVTCompatibilitizer.notfier.app */,
 				7B953EEE1BE00F0500EB7F15 /* DVTPlugInCompatibilityUUIDifier.m */,
 			);
 			name = "Plug-In";

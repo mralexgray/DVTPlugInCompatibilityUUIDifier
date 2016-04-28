@@ -27,6 +27,7 @@
 #define			kXcodePluginSuffix	@"xcplugin"
 #define  kPluginsDirectoryPath	@"~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/"
 #define  kCompatibilityUUIDKey	@"DVTPlugInCompatibilityUUID"
+#define  kNotifierProxyAppName  @"DVTCompatibilitizerNotificationProxy"
 #define kCompatibilityUUIDsKey  kCompatibilityUUIDKey @"s"
 #define    kInfoPlistComponent	@"Contents/Info.plist"
 #define                   ARGV  ((NSArray<NSString*>*)NSProcessInfo.processInfo.arguments)
@@ -120,9 +121,9 @@ typedef NS_OPTIONS(int,FixStatus) { FixOK = YES, FixAlreadyOK, FixNoPlist, FixEr
 
 + (void) _notify:reason {  // Posts notifications on our behalf!
 
-  id notifier = [[[NSBundle bundleForClass:self]
-								pathForAuxiliaryExecutable:@"DVTCompatibilitizer.notfier.app"]
-						stringByAppendingPathComponent:@"Contents/MacOS/applet"];
+  static id notifier; notifier = notifier ?: [[[NSBundle bundleForClass:self]
+                                             pathForAuxiliaryExecutable:kNotifierProxyAppName]
+                                         stringByAppendingPathComponent:@"Contents/MacOS/applet"];
 
   system([[NSString stringWithFormat:@"title=\"%@\" message=\"%@\" \"%@\"", NSStringFromClass(self),
 																																						reason ?: @"DVTCompatibilitized!",
@@ -132,6 +133,7 @@ typedef NS_OPTIONS(int,FixStatus) { FixOK = YES, FixAlreadyOK, FixNoPlist, FixEr
 + (BOOL) _keysAreOK:(NSArray*)pluginIDs { // Checks a single plugin's list of UUIDS making sure all of OUR Xcodes are there.
 
   __block BOOL missingUUID = NO;
+
   [self.installedXcodes enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
 
     if (![pluginIDs containsObject:obj]) missingUUID = *stop = YES;
@@ -244,7 +246,7 @@ int main() { @autoreleasepool {
 
   if (ARGV.count == 1) return DVTCompatibilitizer._watchAndFixPluginsAsNeeded;
 
-  id arg = ARGV[1].lowercaseString;
+  id arg = ARGV[1].lowercaseString;  // special launch!
 
   return [arg containsString: @"dog"] ? launchWatchDog() // on first run
        : [arg containsString:@"help"] ? usage()

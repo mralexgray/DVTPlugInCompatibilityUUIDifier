@@ -62,26 +62,26 @@ or use the great [JDPluginManager](https://github.com/jaydee3/JDPluginManager), 
 and restart `Xcode`.
 
 ## Big picture / implementation details.
-
-DVTPlugInCompatibilityUUIDifier.xcplugin  
-└── Contents
-    ├── Info.plist
-    └── MacOS
-        ├── DVTPlugInCompatibilityUUIDifier  // The bundle's executable.
-        ├── DVTPlugInCompatibilityWatchdog   // The LaunchAgent that will always run.
-        └── DVTCompatibilitizer.notfier.app  // This bunlded app handles notifications
-            └── Contents
-                ├── Info.plist
-                ├── MacOS
-                │   └── applet
-                ├── PkgInfo
-                └── Resources
-                    ├── Scripts
-                    │   └── main.scpt
-                    ├── applet.icns
-                    ├── applet.rsrc
-                    └── description.rtfd
-                        └── TXT.rtf
+	
+	DVTPlugInCompatibilityUUIDifier.xcplugin  
+	└── Contents
+	    ├── Info.plist
+	    └── MacOS
+	        ├── DVTPlugInCompatibilityUUIDifier  // The bundle's executable.
+	        ├── DVTPlugInCompatibilityWatchdog   // The LaunchAgent that will always run.
+	        └── DVTCompatibilitizer.notfier.app  // This bunlded app handles notifications
+	            └── Contents
+	                ├── Info.plist
+	                ├── MacOS
+	                │   └── applet
+	                ├── PkgInfo
+	                └── Resources
+	                    ├── Scripts
+	                    │   └── main.scpt
+	                    ├── applet.icns
+	                    ├── applet.rsrc
+	                    └── description.rtfd
+	                        └── TXT.rtf
 
 First of all, this project requires [AHLaunchCTL](https://github.com/mralexgray/AHLaunchCTL).  However, if you forget to update/init your submodules, there is a pre-build step, 
 
